@@ -2,14 +2,9 @@ from math import *
 from tabulate import *
 from array import array
 
-
-valorA=[]
-valorB=[]
-valorM=[]
-iter=[]
 mat=[]
 
-def agregarMat(i,a,b,m,mat):
+def agregarMat(i,a,b,m,mat):n
     fila=[i,a,b,m]
     mat.append(fila)
     return 
