@@ -15,7 +15,7 @@ def secante(f, p0, p1, tol):
     i=1 
     p = p1
     while (abs(f(p)) > tol):
-        p = p0-((p1-p0)/(f(p1)-f(p0)))*f(p0)
+        p = p1 - (f(p1)* (p1-p0)) / (f(p1)-f(p0))
         if (abs(f(p)) < tol):
             break
         p0 = p1
